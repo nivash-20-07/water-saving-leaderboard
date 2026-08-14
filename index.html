@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSave - Campus Water Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Using Phosphor Icons for modern sleek icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button class="icon-btn" aria-label="Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        
+        <div class="header-center logo">
+            <i class="ph-fill ph-drop" style="color: #2563eb;"></i>
+            <span>AquaSave</span>
+        </div>
+        
+        <div class="header-right">
+            <nav class="nav-links">
+                <a href="#" class="nav-link primary">Home</a>
+                <a href="#" class="nav-link">Leaderboard</a>
+            </nav>
+            <button class="icon-btn" aria-label="Notifications">
+                <i class="ph ph-bell"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-card">
+                <h1>Campus Water Intelligence</h1>
+                <p>Join our professional community. One account gives you access to comprehensive water analytics, leak detection, and sustainability tracking for your entire campus.</p>
+                <ul class="hero-features">
+                    <li>
+                        <i class="ph-fill ph-check-circle"></i>
+                        Monitor real-time usage
+                    </li>
+                    <li>
+                        <i class="ph-fill ph-check-circle"></i>
+                        Identify leakage risks
+                    </li>
+                    <li>
+                        <i class="ph-fill ph-check-circle"></i>
+                        Track sustainability goals
+                    </li>
+                </ul>
+            </div>
+
+            <div class="login-card">
+                <h2>Login</h2>
+                <form class="login-form">
+                    <div class="form-group">
+                        <label>USER NAME</label>
+                        <div class="input-wrapper">
+                            <i class="ph ph-user"></i>
+                            <input type="text" placeholder="Email or mobile number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>PASSWORD</label>
+                        <div class="input-wrapper">
+                            <i class="ph ph-lock-key"></i>
+                            <input type="password" placeholder="••••••••">
+                        </div>
+                        <div class="show-password">
+                            <input type="checkbox" id="show-pwd">
+                            <label for="show-pwd">Show Password</label>
+                        </div>
+                    </div>
+
+
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='dashboard.html'">
+                            Login <i class="ph ph-arrow-right"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary">Reset</button>
+                    </div>
+
+                    <div class="form-footer">
+                        <a href="#" class="forgot-pwd">FORGOT PASSWORD?</a>
+                        <p class="signup-text">Don't have an account? <a href="#">SignUp Free.</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="inefficiency-section">
+            <div class="section-header">
+                <h2>The Cost of Invisible<br>Inefficiency</h2>
+                <p>Without actionable data, institutional water management relies on guesswork, leading to wasted resources and blown budgets.</p>
+            </div>
+
+            <div class="info-cards">
+                <div class="info-card">
+                    <div class="icon-wrapper icon-red">
+                        <i class="ph-fill ph-drop"></i>
+                    </div>
+                    <h3>Unnoticed Wastage</h3>
+                    <p>Silent leaks and inefficient fixtures can account for up to 30% of a campus's total water bill before being discovered.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-wrapper icon-gray">
+                        <i class="ph ph-chart-line-up"></i>
+                    </div>
+                    <h3>Difficult Comparison</h3>
+                    <p>Aggregated monthly bills make it impossible to pinpoint which dorms or departments are overconsuming.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-wrapper icon-green">
+                        <i class="ph-fill ph-check-circle"></i>
+                    </div>
+                    <h3>Lack of Motivation</h3>
+                    <p>Without visibility into their impact, students and staff lack the intrinsic motivation to change their water habits.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <i class="ph-fill ph-drop"></i>
+            <span>AquaSave</span>
+        </div>
+        <p class="copyright">© 2024 AquaSave Smart Platforms. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Campus Sustainability Guide</a>
+            <a href="#">Contact Support</a>
+        </div>
+    </footer>
+</body>
+</html>
